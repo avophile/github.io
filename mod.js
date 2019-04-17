@@ -16,7 +16,7 @@ $('#history-clone p:first').text('Faucibus in ornare quam viverra orci sagittis 
 
 $(x).css("background-color", "#9e9e9e"); // 5.	Change the background color of history-clone to #9e9e9e
 
-//$('#history-clone p:nth-child(n+3)').hide()  // hide the original p elements from the clone
+$('#history-clone p:nth-child(n+3)').hide()  // hide the original p elements from the clone
 
 
 $('.navbar a[href*="#"]').on('click', function (event) {  //	Add scrolling animation when user click on Navigation bar
