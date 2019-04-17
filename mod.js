@@ -29,6 +29,8 @@ $('.navbar a[href*="#"]').on('click', function (event) {  //	Add scrolling anima
 
 $( "ul.navbar li:eq(1)" ).attr('id', 'cloneMe'); // gives the second li in the navbar ul the id of cloneMe
 
+$( "ul.nav" ).attr('class', 'navbar'); 
+
 $('#cloneMe').clone().insertAfter('#cloneMe').find('a').prop({'href':'#history-clone'}).text("history clone"); // finds the a in the cloned li and gives it an updated target
 
 /* the javascript way
